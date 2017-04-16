@@ -30,3 +30,19 @@ console = man.upper()
 console_1 = man.lower()
 console_2 = man.title()
 print(console, console_1, console_2)
+
+var_a = 4
+var_b = 2
+print(var_a * var_b)
+var_c = 5
+var_d = 3
+print(var_c + var_d)
+var_i = 16
+print(var_i / var_b)
+print(var_i - (var_a * var_b))
+
+
+age = 25
+message = "Happy" + " " + str(age) + "rd Birthday"
+print(message)
+
