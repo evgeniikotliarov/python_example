@@ -18,6 +18,19 @@ print(foods_1)
 print(foods)
 for value in foods:
     print(value)
+
+dimensions = (250, 50)
+print(dimensions[0])
+# dimensions[0] = 300
+for d in dimensions:
+    print(d)
+
+eat = ('pizza', 'sushi', 'cola', 'tea', 'mozzarella')
+for value in eat:
+    print(value)
+eat = ('pizza', 'sushi', 'fanta', 'coffee', 'mozzarella')
+for value in eat:
+    print(value)
 # a = "ducatti"
 # motobikes.append(a)
 # dream = "I want " + "motobike " + motobikes[-1].capitalize()
