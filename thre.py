@@ -31,3 +31,10 @@ for value in eat:
 eat = ('pizza', 'sushi', 'fanta', 'coffee', 'mozzarella')
 for value in eat:
     print(value)
+
+motobikes = ["honda", "Suzuki", "ktm", "yamaha"]
+for value in motobikes:
+    if value.lower() == 'suzuki':
+        print(value.upper())
+    else:
+        print(value.title())
