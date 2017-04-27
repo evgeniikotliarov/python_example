@@ -38,3 +38,11 @@ for value in motobikes:
         print(value.upper())
     else:
         print(value.title())
+motobikes = ["honda", "Suzuki", "ktm", "yamaha"]
+for value in motobikes:
+    if value in 'ktm':
+        print(True)
+    else:
+        print(False)
+
+
