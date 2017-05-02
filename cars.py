@@ -58,10 +58,11 @@ for num in numbers:
         num = '2nd'
         numbers_parser.append(num)
     elif num == '3':
-        num = '3th'
+        num = '3rd'
         numbers_parser.append(num)
     else:
-        numbers_parser.append(num)
+        numb = num + 'th'
+        numbers_parser.append(numb)
 print(numbers_parser)
 
 
