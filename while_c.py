@@ -51,15 +51,59 @@
 #         break
 #     else:
 #         print("Я тоже бывал в " + city.title() + " классно там")
-current_number = 0
-while current_number < 10:
-    current_number+=1
-    if current_number % 2 == 0:
-        continue
-    print(current_number)
+# current_number = 0
+# while current_number < 10:
+#     current_number+=1
+#     if current_number % 2 == 0:
+#         continue
+#     print(current_number)
+
+# age = 'Enter your age '
+# age = input(age)
+# age = int(age)
+# age1 = range(0,99999)
+# if age in age1:
+#     print('True')
+# else:
+#     print('False')
+
+
+
+# if age == int(age):
+#     if age < 3:
+#         print('Your age ' + str(age) + 'price 3 dollars')
+#     elif age <= 12:
+#         print('Your age ' + str(age) + 'price 10 dollars')
+#     elif age > 12:
+#         print('Your age ' + str(age) + 'price 15 dollars')
+#
+# elif age == str(age):
+#     print("Thank you")
 
 
 # x = 1
 # while x<1000000:
 #     x+=1
 #     print(x)
+
+def wear(size, trademark):
+    print("This size "+ size +" I love python "+'and '+trademark.title())
+
+wear('l', 'adidas')
+wear('M', 'nike')
+wear(size = "Like", trademark = 'adidas')
+
+
+def animal(name, type='dog'):
+    print("This is "+name.title()+" is a "+type+" !")
+
+animal(name='charly')
+animal('pussy', type='cat')
+
+
+def describe_city(city, country='russia'):
+    print(country.title()+" city is "+city.title())
+
+describe_city("Russia", 'moscow')
+describe_city('kazan')
+describe_city('ufa')
