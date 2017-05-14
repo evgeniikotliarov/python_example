@@ -175,3 +175,45 @@
 #         break
 #     artist = get_formatted_name(first_name, album)
 #     print(artist)
+#
+# def greet_users(names):
+#     for name in names:
+#         print("Hello "+name.title()+" !")
+#
+# users = ['jilia','osborn', 'victor']
+# greet_users(users)
+#
+# names = ['Garry', 'Larry', 'Tom']
+# new_names = []
+#
+# def print_models(unprinted_design, completed_models):
+#     while unprinted_design:
+#         current_design = unprinted_design.pop()
+#         print('Printing model: '+ current_design)
+#         completed_models.append(current_design)
+#
+# def show_completed_models(completed_models):
+#     print('\n The following model have been printed:')
+#     for model in completed_models:
+#         print(model)
+# print_models(names, new_names)
+# show_completed_models(new_names)
+
+names = ['Garry', 'Larry', 'Tom']
+new_magic = []
+
+def show_magician(username):
+    for name in username:
+        print(name)
+show_magician(names)
+
+
+def make_great(magician):
+    for name in magician[:]:
+        name = "great "+name
+        new_magic.append(name)
+
+a = make_great(names)
+show_magician(new_magic)
+print(names)
+print(new_magic)
