@@ -199,21 +199,61 @@
 # print_models(names, new_names)
 # show_completed_models(new_names)
 
-names = ['Garry', 'Larry', 'Tom']
-new_magic = []
+# names = ['Garry', 'Larry', 'Tom']
+# new_magic = []
+#
+# def show_magician(username):
+#     for name in username:
+#         print(name)
+# show_magician(names)
+#
+#
+# def make_great(magician):
+#     for name in magician[:]:
+#         name = "great "+name
+#         new_magic.append(name)
+#
+# a = make_great(names)
+# show_magician(new_magic)
+# print(names)
+# print(new_magic)
 
-def show_magician(username):
-    for name in username:
-        print(name)
-show_magician(names)
+# ++++++++++++++++++++++++++++++
 
+# def pizza(*component):
+#     print(component)
+#
+# pizza('tomat', 'sous', 'cream')
 
-def make_great(magician):
-    for name in magician[:]:
-        name = "great "+name
-        new_magic.append(name)
-
-a = make_great(names)
-show_magician(new_magic)
-print(names)
-print(new_magic)
+# def get_sandvich(*component):
+#     for comp in component:
+#         bar = []
+#         bar.append(comp)
+#         return
+#         print("Your sandvich contains " + bar)
+#
+# get_sandvich('tomat', 'sous', 'cream')
+# +++++++++++++++++++++++++++++++++++++++++
+# def build_profile(first_name, last_name, **user_info):
+#     profile = {}
+#     profile['first_name'] = first_name.title()
+#     profile['last_name'] = last_name.title()
+#     for key,value in user_info.items():
+#         profile[key] = value.title()
+#     return profile
+#
+# user_profile = build_profile('jack', 'doe', age = '35', profession = 'manager', stage = '9')
+# print(user_profile)
+# gena_profile = build_profile('gena', 'tolstoy', age = '34', profession = 'pranker', answer = 'ok')
+# print(gena_profile)
+# ===============================
+# def make_car(mark, model, **car_info):
+#     car = {}
+#     car['mark'] = mark
+#     car['model'] = model
+#     for key, value in car_info.items():
+#         car[key] = value
+#     return car
+# car_japan = make_car('toyota', 'camry', year = '2017')
+# print(car_japan)
+# ==================================
