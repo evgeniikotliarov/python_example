@@ -10,13 +10,15 @@
 # c = int(input("Enter third number "))
 #
 # arifmetic(a,b,c)
-from car.get_car import arifmetic, full_name
-name = input("Enter your name ")
-surname = input("Enter your surname ")
-year = int(input("When were your born "))
-country = input("Where are you from ")
+# yoda = ['like', 'Python', "I"]
+# print(yoda[2],yoda[0],yoda[1])
 
-age = arifmetic(year)
-f_name = full_name(name, surname)
+grades = ['Jack', 'Jane', 'Jake', 'John']
+ar = {}
+grades_dict = {}.fromkeys(grades)
 
-print("Hello, "+f_name+". ""Your are "+str(age+" years old ." "You are living from "+country+" !")
+for key, value in grades_dict.items():
+    a =  int(input("Enter grade for " + key))
+    grades_dict[key] = key
+    grades_dict[value] = a
+

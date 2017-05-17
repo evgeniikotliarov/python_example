@@ -1,25 +1,25 @@
 # print(man['last_name'], man['first_name'])
 # numbers = {'Dima':5, 'Leha':7, 'Alex':9}
 # print(numbers["Leha"])
-
-# favorite_language = {
-#     'Matz': 'ruby',
-#     'Jen': 'python',
-#     'Sarah': 'c',
-#     'Joshua': 'java'
-# }
+#
+favorite_language = {
+    'Matz': 'ruby',
+    'Jen': 'python',
+    'Sarah': 'c',
+    'Joshua': 'java'
+}
 # print("We love " + favorite_language['Matz'].upper() + " very" "\n" "and " + favorite_language['Joshua'].title() + " very nice")
 
 # for k,v in favorite_language.items():
 #     print('\n' + k.upper())
 #     print(v.title())
 
-# friends = ['Jen', 'Cola', 'Java']
-# for name in favorite_language.values():
-#     print(name.title())
-#     for fr in friends:
-#         if fr in favorite_language:
-#             print('Hi ' + name.title() + ' I like to.')
+friends = ['Jen', 'Cola', 'Java']
+for name in favorite_language.values():
+    print(name.title())
+    for fr in friends:
+        if fr in favorite_language:
+            print('Hi ' + name.title() + ' I like to.')
 
 
 # people = []
@@ -37,16 +37,16 @@
 #
 # print("Total " + str(len(people)))
 
-favorite_places = {
-    'city':['John'],
-    'river': ['Vasia', 'Katya', 'Gena'],
-    'mountain': ['sasha', 'sveta', 'Omka']
-}
-for k,v in favorite_places.items():
-    print('\n'"Thi is " + k.title() + " very nice")
-    for t in v:
-        print("\t" + t.title())
-
+# favorite_places = {
+#     'city':['John'],
+#     'river': ['Vasia', 'Katya', 'Gena'],
+#     'mountain': ['sasha', 'sveta', 'Omka']
+# }
+# for k,v in favorite_places.items():
+#     print('\n'"Thi is " + k.title() + " very nice")
+#     for t in v:
+#         print("\t" + t.title())
+#
 
 # man_1 = {
 #     'first_name': 'Dima',
