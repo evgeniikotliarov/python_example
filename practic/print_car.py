@@ -12,13 +12,3 @@
 # arifmetic(a,b,c)
 # yoda = ['like', 'Python', "I"]
 # print(yoda[2],yoda[0],yoda[1])
-
-grades = ['Jack', 'Jane', 'Jake', 'John']
-ar = {}
-grades_dict = {}.fromkeys(grades)
-
-for key, value in grades_dict.items():
-    a =  int(input("Enter grade for " + key))
-    grades_dict[key] = key
-    grades_dict[value] = a
-
