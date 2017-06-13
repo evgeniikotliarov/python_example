@@ -142,3 +142,4 @@ ENV/
 
 # mkdocs documentation
 /site
+regex/*.txt
