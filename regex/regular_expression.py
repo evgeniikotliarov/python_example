@@ -1,17 +1,17 @@
 import re
 
-
-input_filename = "../regex/text.txt"
-result_file = "../regex/results.txt"
-
-inputfile = open(input_filename, mode='r', encoding='UTF8')
-resultfile = open(result_file, mode='w', encoding='UTF8')
-mytext = inputfile.read()
-inputfile.close()
-
+#
+# input_filename = "../regex/text.txt"
+# result_file = "../regex/results.txt"
+#
+# inputfile = open(input_filename, mode='r', encoding='UTF8')
+# resultfile = open(result_file, mode='w', encoding='UTF8')
+# mytext = inputfile.read()
+# inputfile.close()
 lookfor = {'\d':"[0-5]"}
+
 for k, v in lookfor.items():
-    print(re.sub(k, lambda x: lookfor[x.group()], v))
+    print(re.sub(k, lambda x: lookfor[x.replace(v)], v))
 
 # results = re.findall(lookfor, mytext)
 
@@ -21,7 +21,7 @@ for k, v in lookfor.items():
 #     print(item)
 
 
-resultfile.close()
+# resultfile.close()
 
 # print("Total: " + str(len(results)))
 
