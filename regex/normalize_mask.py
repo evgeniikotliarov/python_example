@@ -37,4 +37,3 @@ class Normalize:
 
 a = Normalize(r"^\+996+(55|77|70)[0-9] \(\)\[\]\d{6}$")
 b = a.run_normalize()
-print(b)
